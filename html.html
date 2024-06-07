@@ -3,76 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practise Program 1</title>
+    <title>Prnsh's Reads - Book Shop</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #444;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        table, th, td {
+            border: 2px solid white;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #555;
+        }
+        tr:nth-child(even) {
+            background-color: #333;
+        }
+        tr:nth-child(odd) {
+            background-color: #444;
+        }
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        address a {
+            color: #9acd32;
+        }
+    </style>
 </head>
-<body style="background-color:black; color: white;">
-    <h1 align="center"><i>Prnsh's Reads</i></h1>
-    <h3 align="center"><em>BOOK SHOP</em></h3>
-    <hr>
-    <hr>
+<body>
 
-    <br>
-    <br>
+<header>
+    <h1><i>Prnsh's Reads</i></h1>
+    <h3><em>BOOK SHOP</em></h3>
+</header>
 
-    <table border="2" cellpadding="5" align="center" height="300" width="1000">
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Books</a>
+    <a href="#">Authors</a>
+    <a href="#">Genres</a>
+    <a href="#">Contact</a>
+</nav>
 
-        <tr>
-            <th>S.NO</th>
-            <th>BOOK SERIAL NUMBER</th>
-            <th>BOOK NAME</th>
-            <th>AUTHOR</th>
-            <th>GENRE</th>
-            <th>COST</th>
-        </tr>
-        
-        <tr>
-            <td>01</td>
-            <td>43r5789</td>
-            <td>Beyond the Story</td>
-            <td>BTS and Kang Myeong Seok</td>
-            <td>Autobiography</td>
-            <td>$24</td>
-        </tr>
+<hr>
+<hr>
 
-        <tr>
-            <td>02</td>
-            <td>678g32</td>
-            <td>Harry Potter</td>
-            <td>J.K. Rowling</td>
-            <td>Fiction</td>
-            <td>$50</td>
-        </tr>
+<br>
 
-        <tr>
-            <td>03</td>
-            <td>89023d3</td>
-            <td>Echoes of Eternity</td>
-            <td>Sarah Mitchell</td>
-            <td>Fantasy</td>
-            <td>$23</td>
-        </tr>
+<table>
+    <tr>
+        <th>S.NO</th>
+        <th>BOOK SERIAL NUMBER</th>
+        <th>BOOK NAME</th>
+        <th>AUTHOR</th>
+        <th>GENRE</th>
+        <th>COST</th>
+    </tr>
+    
+    <tr>
+        <td>01</td>
+        <td>43r5789</td>
+        <td>Beyond the Story</td>
+        <td>BTS and Kang Myeong Seok</td>
+        <td>Autobiography</td>
+        <td>$24</td>
+    </tr>
 
-        <tr>
-            <td>04</td>
-            <td>789i007</td>
-            <td>A Symphony of Stars</td>
-            <td>Emily Carter</td>
-            <td>Science Fiction</td>
-            <td>$20</td>
-        </tr>
+    <tr>
+        <td>02</td>
+        <td>678g32</td>
+        <td>Harry Potter</td>
+        <td>J.K. Rowling</td>
+        <td>Fiction</td>
+        <td>$50</td>
+    </tr>
 
-    </table>
+    <tr>
+        <td>03</td>
+        <td>89023d3</td>
+        <td>Echoes of Eternity</td>
+        <td>Sarah Mitchell</td>
+        <td>Fantasy</td>
+        <td>$23</td>
+    </tr>
 
-    <br>
-    <br>
-    <hr>
-    <hr>
-    <br>
-    <br>
-    <br>
+    <tr>
+        <td>04</td>
+        <td>789i007</td>
+        <td>A Symphony of Stars</td>
+        <td>Emily Carter</td>
+        <td>Science Fiction</td>
+        <td>$20</td>
+    </tr>
+</table>
 
-    <address align="center">27th Main Rd, 9th Block, Jayanagar ,Bangalore ,Karnataka - 560049  </address>
-    <address align="center">Contact number:<a href="">080 2311 1845</a></address>
+<br>
+<hr>
+<hr>
+<br>
+
+<footer>
+    <address>27th Main Rd, 9th Block, Jayanagar, Bangalore, Karnataka - 560049</address>
+    <address>Contact number: <a href="tel:+918023111845">080 2311 1845</a></address>
+</footer>
 
 </body>
 </html>
